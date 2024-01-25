@@ -159,7 +159,7 @@ int main(){
 		 copystate(x1, x);
 		 pt=0x00000001;
                 
-		x1[6] = x[6] ^ (pt<<31);            // Input difference at position (6,31), one can similarly verify bias for other input difference
+		x1[6] = x[6] ^ (pt<<31);            // Input difference(ID) at position (6,31) // Similarly by changing ID position one can verify the other biases  
 
 
              
